@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="15dp">
+
+        <EditText
+            android:id="@+id/txtLogUSerName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/enter_user_email"
+            android:layout_marginTop="150dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="40dp"
+            android:background="@drawable/border"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/lightgray"
+            android:textColor="@color/black"
+            android:importantForAutofill="no"/>
+
+        <EditText
+            android:id="@+id/txtLogUSerPass"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/enter_password"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="40dp"
+            android:background="@drawable/border"
+            android:inputType="textPassword"
+            android:textColorHint="@color/lightgray"
+            android:textColor="@color/black"
+            android:importantForAutofill="no"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@id/linearLayout1"
+        android:gravity="bottom"
+        android:layout_marginTop="25dp">
+
+        <Button
+            android:id="@+id/btnLogLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            tools:ignore="ButtonStyle"
+            android:backgroundTint="@color/primary"/>
+
+        <Button
+            android:id="@+id/btnLogRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            tools:ignore="ButtonStyle"
+            android:backgroundTint="@color/primary"/>
+
+    </LinearLayout>
+</RelativeLayout>

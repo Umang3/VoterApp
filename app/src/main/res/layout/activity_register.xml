@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:fitsSystemWindows="true">
+
+    <include
+        android:id="@+id/toolbar2"
+        layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="56dp">
+
+        <EditText
+            android:id="@+id/txtRegUSerName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/enter_user_name"
+            android:layout_marginTop="150dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="40dp"
+            android:background="@drawable/border"
+            android:inputType="text"
+            android:textColorHint="@color/lightgray"
+            android:textColor="@color/black"
+            android:importantForAutofill="no"/>
+
+        <EditText
+            android:id="@+id/txtRegEmailId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/enter_user_email1"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="40dp"
+            android:background="@drawable/border"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/lightgray"
+            android:textColor="@color/black"
+            android:importantForAutofill="no"/>
+
+        <EditText
+            android:id="@+id/txtRegUSerPass"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/enter_user_pass"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="40dp"
+            android:background="@drawable/border"
+            android:inputType="textPassword"
+            android:textColorHint="@color/lightgray"
+            android:textColor="@color/black"
+            android:importantForAutofill="no"/>
+
+        <EditText
+            android:id="@+id/txtRegPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/enter_phone_number"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="40dp"
+            android:background="@drawable/border"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:textColorHint="@color/lightgray"
+            android:textColor="@color/black"
+            android:importantForAutofill="no"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_below="@id/linearLayout2"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnRegRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginStart="140dp"
+            android:backgroundTint="@color/primary"/>
+
+    </LinearLayout>
+</RelativeLayout>

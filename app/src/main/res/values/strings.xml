@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">VoterApp</string>
+    <string name="enter_phone_number"> Enter Phone Number</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_user_email">Enter User Email</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="enter_user_email1">Enter User Email</string>
+    <string name="enter_user_pass">Enter User Pass</string>
+    <string name="sunil_chavda">Sunil Chavda</string>
+    <string name="aakash_shah">Aakash Shah</string>
+    <string name="anjali_kumari">Anjali Kumari</string>
+    <string name="rahul_verma">Rahul Verma</string>
+    <string name="rahul_verma_has_0_votes">rahul Verma has 0 Votes</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="anjali_kumari_has_0_votes">Anjali Kumari has 0 Votes</string>
+    <string name="aakash_shah_has_0_votes">Aakash Shah has 0 Votes</string>
+    <string name="sunil_chavda_has_0_votes">Sunil Chavda has 0 Votes</string>
+    <string name="vote">Vote</string>
+
+</resources>

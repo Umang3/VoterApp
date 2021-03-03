@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VoteCandidate"
+    android:fitsSystemWindows="true">
+
+    <include
+        android:id="@+id/toolbar3"
+        layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="56dp">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp">
+            <RadioButton
+                android:id="@+id/candidate1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sunil_chavda"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="120dp" />
+            <RadioButton
+                android:id="@+id/candidate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aakash_shah"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginStart="120dp" />
+            <RadioButton
+                android:id="@+id/candidate3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/anjali_kumari"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginStart="120dp" />
+            <RadioButton
+                android:id="@+id/candidate4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rahul_verma"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginStart="120dp" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRegLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vote"
+        android:layout_marginLeft="160dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:backgroundTint="@color/primary"/>
+
+</RelativeLayout>
